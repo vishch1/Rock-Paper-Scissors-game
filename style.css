@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
+.header{
+    padding: 10px;
+    padding-bottom: 20px;
+    height:100px;
+    text-align: center;
+    background-color: rgb(29, 119, 126);
+    color: beige;
+    font-size: 80px;
+    font-family: cursive;
+}
+.choice:hover{
+    opacity: 0.25;
+    cursor: pointer;
+    
+}
+.container{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.scoreBoard{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: xx-large;
+    gap:5rem;
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+.msg-conatiner{
+    margin-top: 3rem;
+}
+#msg{
+    background-color: rgb(27, 121, 135);
+    color: white;
+    font-size: 3rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
